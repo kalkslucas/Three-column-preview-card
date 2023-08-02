@@ -1,0 +1,98 @@
+/*FORMATAÇÕES GERAIS*/
+
+body {
+    font-family: 'Lexend Deca', cursive, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h3 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    width: 230px;
+    margin-bottom: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 40px;
+    background-color: white;
+    padding: 15px;
+    width: 100px;
+}
+
+
+/*FORMATAÇÃO CONTEUDO*/
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*FORMATAÇÕES COLUNAS*/
+.sedan {
+    border-radius: 10px 0 0 10px;
+    padding: 20px 15px 30px 40px;
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan a:link, .sedan a:visited {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan a:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    padding: 20px 15px 30px 40px;
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suvs a:link, .suvs a:visited {
+    color: hsl(184, 100%, 22%);
+}
+
+
+.suvs a:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    border-radius: 0 10px 10px 0;
+    padding: 20px 15px 30px 40px;
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury a:link, .luxury a:visited {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.luxury a:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
